@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-You can view the live project here: **[your-live-demo-link-here.com]**
+You can view the live project here: **[https://budi-currency-dashboard.netlify.app/]**
 
 _(Remember to replace the link above after you deploy the project to Netlify.)_
 
