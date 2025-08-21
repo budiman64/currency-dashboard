@@ -1,0 +1,49 @@
+/* style.css */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.panel {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  min-width: 300px;
+  flex: 1;
+  max-width: 500px;
+}
+
+.rates-panel h2,
+.chart-panel h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+#rates-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#rates-list li {
+  padding: 8px 0;
+  font-size: 1.1em;
+  border-bottom: 1px solid #f4f4f4;
+}

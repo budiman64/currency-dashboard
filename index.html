@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Live Currency Exchange Rates</h1>
+      <p>Base Currency: US Dollar (USD)</p>
+    </header>
+
+    <main class="dashboard-container">
+      <div class="panel rates-panel">
+        <h2>Today's Rates</h2>
+        <ul id="rates-list">
+          <li>Loading...</li>
+        </ul>
+      </div>
+
+      <div class="panel chart-panel">
+        <h2>Currency Chart</h2>
+        <canvas id="currencyChart"></canvas>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
